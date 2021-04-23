@@ -1,0 +1,128 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background: black;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    display: inline-block;
+    margin: -25px;    
+}
+
+/* NAVIGATION BAR */
+
+nav ul {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 40px;
+  margin: 100px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a.ContactLink {
+    color: black;
+  }
+
+/* Features*/
+
+h2 {
+    color: black;
+    font-size: 40px;
+    background-color: rgb(182, 181, 181);
+    margin: 0;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+h4 {
+  color: black;
+  font-size: 30px;
+  background-color: rgb(182, 181, 181);
+  margin: 0;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+p {
+    color: black;
+    font-size: 22px;
+    background-color: rgb(182, 181, 181);
+    margin: 0;
+    text-align: center;
+}
+
+.picture {
+  display: float;
+  vertical-align: middle; /* or top or bottom */
+  border: 1px solid black;
+  box-shadow: gray 0 0 5px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px
+}
+.text {
+  display: inline-block;
+  vertical-align: middle; /* or top or bottom */
+  padding: 60px;
+  font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
+    text-align: center;
+}
