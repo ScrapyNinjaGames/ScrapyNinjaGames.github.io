@@ -20,9 +20,9 @@ header {
 }
 
 figure {
-    text-align: center;
-    display: inline-block;
-    margin: -25px;    
+    text-align: left;
+    display: block;
+    margin: 0px;    
 }
 
 /* NAVIGATION BAR */
